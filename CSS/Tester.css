@@ -1,0 +1,118 @@
+body{
+    background-image: url(/Users/Tamam/Desktop/Asset\ UH/Gambar/Logo.png);
+    margin: 0;
+    padding: 0;
+}
+
+.SBar{
+    background-color: black;
+    margin-top: -100px;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    overflow: auto;
+    float: left;
+}
+.Menu{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    text-decoration: none;
+    padding: 15px 50px;
+    margin: 5px 10px;
+}
+.Menu:hover{
+    color: white;
+}
+.active{
+    color:white !important;
+}
+.Gmbr img{
+    height: 100px;
+    width: 200px;
+}
+
+/*Masuk Ke Konten
+Ya Ges Yakk*/
+.Contain{
+    margin-left: 260px;
+    margin-top: 100px;
+    color: white;
+}
+
+.cardbox{
+    height: 260px;
+    align-items: center;
+    display: flex;
+}
+
+.card{
+    background-color: rgb(30, 30, 30);
+    display: inline-block;
+    padding: 20px;
+    width: 100px;
+    height: 160px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'harlow-solid-italic-italic', sans-serif;
+    margin: 0px 14px 0px 25px;
+    transition: ease-in-out 0.5s;
+}
+
+.card-ctn{
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.Penjelasan{
+    text-align: justify;
+    font-size: 15px;
+    float: right;
+    max-width: 140px;
+    margin-top: -200px;
+    color: rgb(30, 30, 30);
+}
+
+.Nama{
+    margin:15px 0 0 0;
+    color: white;
+}
+
+.Keterangan{
+    margin-top: 5px;
+    color: grey;
+}
+
+.card-img{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.card-img img{
+    height:100px;
+    width:100px;
+}
+
+.card:hover{
+    background-color: rgb(50, 50, 50);
+    padding: 40px;
+    width: 300px;
+    height: 220px;
+    display: inline-block;
+    transition: ease-in-out 0.5s;
+}
+
+.card:hover .Penjelasan{padding-right: 4px;overflow-y: scroll;color: lightgreen;height: 160px;}
+
+.card .Audio{
+    width: 150px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+/*Konten Berakhir Disini
+Ya Ges Yakk*/
